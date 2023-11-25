@@ -4,32 +4,48 @@
     margin: 0;
     list-style: none;
 }
-    body{
-    background-color: #2F4F4F;
+
+body{
+   /* background-color:#8B0000;*/
+   background-image: url(./img/vermelho.jpg);
+   background-size: cover;
+   
 }
+
+    
+   /* background: url(./img/pipoca.jpeg) ;
+    background-size: 100vh;
+    height: 70vh;
+    width: 300%;
+    background-repeat:no-repeat;
+    filter: brightness(130%);*/
+    
+
 .inicial h1{
     display: flex;
-    margin-top: 1vh;
-    background-color: bisque;
+    background-color:#B22222;
     width: 100%;
-    height: 6vh;
-    border-radius: 2vh;
+    height: 7vh;
+    letter-spacing: 7px;
+    color: #fff;
+    
     
  
    
 }
 .inicial a{
-    margin-top: 3vh;
+    margin-top: 4vh;
 
     padding: 10vh;
     text-decoration: none;
     margin-left: 12vh;
-    font-size: 2vh;
-    background-color: #2F4F4F;
+    font-size: 3vh;
+    letter-spacing: 7px;
+    
     display: inline-block;
-    color: chocolate;
-    border: solid #FFDAB9 1vh;
-    border-radius: 50%;
+    color: #fff;
+    background-color: #B22222;
+    border:solid .1vh #fff ;
     
 
 }
@@ -37,8 +53,21 @@
     transform: scale(1.2);
 
 }
+.conteudo1 ul{
+    display: flex;
+
+}
 
 .conteudo1 ul li img{
+    margin-top: 10vh;
+    border:solid .10vh #fff;
+    width: 50vh;
+    height: 50vh;
+    margin-left: 3vh;
+    
+    
+    
+    
     
    
 }
