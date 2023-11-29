@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body{
+   /* background-color:#8B0000;*/
+   background-image: url("../img/vermelho.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+
+   
+}
+
+    
+   /* background: url(./img/pipoca.jpeg) ;
+    background-size: 100vh;
+    height: 70vh;
+    width: 300%;
+    background-repeat:no-repeat;
+    filter: brightness(130%);*/
+    
+
+.inicial h1{
+    margin-left: 50vh;
+    margin-top: 5vh;
+    font-size: 5vh;
+    letter-spacing: 20px;
+    text-shadow: 9px 6px 13px rgba(0,0,0,0.6);
+    color: white;
+
+
+}
+.inicial a{
+    margin-top: 8vh;
+    padding: 2vh;
+    text-decoration: none;
+    margin-left: 20vh;
+    font-size: 3vh;
+    letter-spacing: 7px;
+    display: inline-block;
+    color: #fff;
+    background-color: #B22222;
+    border:solid .3vh #fff ;
+border-radius: 8vh;
+    
+
+}
+.inicial a:hover{
+    transform: scale(1.2);
+
+}
+.conteudo1 ul{
+    display: flex;
+
+}
+
+.conteudo1 ul li img{
+    margin-top: 10vh;
+    border:solid .10vh #fff;
+    width: 50vh;
+    height: 50vh;
+    margin-left: 3vh;
+    
+}
+.texto01 h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2,5vh;
+    margin-left: 3vh;
+    padding: 3vh;
+    width: 100vh;
+    margin-top: 12vh;
+    color: white;
+    text-shadow: 9px 6px 13px rgba(0,0,0,0.91);
+}
+.card ul{
+    display: flex;
+    flex-direction: column;
+}
+.card ul li img{
+    margin-top: 10vh;
+    border:solid .10vh #fff;
+    width: 50vh;
+    height: 45vh;
+    margin-left: 3vh;
+}
+
+  
+

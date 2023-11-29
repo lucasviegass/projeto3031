@@ -1,90 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link href="estilo.css" rel="stylesheet">
-    <title>Meu Blog</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/estilo.css" rel="stylesheet">
+    <!--
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+    --> 
+    <title>Blog</title>
 </head>
-<body>
-    <div class="pagina">
-    <div class="inicial">
+<body ng-app="blog">    
+    <div class="pagina"></div>
+    <div class="inicial"></div>
     <h1>Mundo Cinema</h1>
-    <a href="sobre.html">Sobre</a>
-    <a href="post1.html">Lançamentos</a>
-    <a href="post2.html">ranking</a>
-    <a href="post3.html">críticas</a>
-    
+    <a href="./templates/sobre.html">Sobre</a>
+    <a href="./templates/lançamento.html">Lançamentos</a>
+    <a href="./templates/ranking.html">ranking</a>
+    <a href="./templates/critica.html">críticas</a>
+</div>
 </div>
     </div>
 
-
-</body>
-</html>
-
-<!DOCTYPE html>
-<html>
-<head>
-    <link href="estilo.css" rel="stylesheet">
-    <title>Sobre</title>
-</head>
-<body>
     <div class="conteudo1">
-   <ul>
-       <li><img src="./img/cinema1.jpg" alt=""></li>
-       <li><img src="./img/tela2.jpeg" alt=""></li>
-       <li><img src="./img/tela3.jpeg" alt=""></li>
-       <li><img src="./img/tela4.jpeg" alt=""></li>
-   </ul>
-</div>
+        <ul>
+            <li><img src="./img/cinema1.jpg" alt=""></li>
+            <li><img src="./img/tela2.jpeg" alt=""></li>
+            <li><img src="./img/tela3.jpeg" alt=""></li>
+            
+        </ul>
+     </div>
 
-</body>
-</html>
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Post 1</title>
-</head>
-<body>
-    <h1>Meu Primeiro Post</h1>
-    <button id="meuBotao">Clique aqui</button>
-<div id="resultado"></div>
-    <p>Conteúdo do meu primeiro post.</p>
-    <a href="index.html">Página Inicial</a>
-    
-</html>
-
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Post 2</title>
-</head>
-<body>
-    <h1>Meu Segundo Post</h1>
-    <p>Conteúdo do meu segundo post.</p>
-    <a href="index.html">Página Inicial</a>
-</body>
-</html>
-
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Post 3</title>
-</head>
-<body>
-    <h1>Meu Terceiro Post</h1>
-    <p>Conteúdo do meu terceiro post.</p>
-    <a href="index.html">Página Inicial</a>
-</body>
-</html>
-
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Contato</title>
-</head>
-<body>
-    <h1>Entre em Contato</h1>
-    <p>Entre em contato conosco através do email: contato@meublog.com</p>
-    <a href="index.html">Página Inicial</a>
 </body>
 </html>
